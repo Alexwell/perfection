@@ -1,0 +1,28 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    min-width: 320px;
+}
+
+/* HEADER */
+nav {
+	height: 94px;
+	line-height: 94px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+
+
+.my_nav {
+    border: none;
+}
+
+.my_nav:hover,
+.my_nav:focus {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
