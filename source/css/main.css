@@ -5,7 +5,9 @@ body {
 }
 
 /* HEADER */
-nav {
+
+
+/* nav {
 	height: 94px;
 	line-height: 94px;
 	position: absolute;
@@ -13,16 +15,9 @@ nav {
 	left: 0;
 	width: 100%;
 	z-index: 999;
-}
+} */
 
 
 
-.my_nav {
-    border: none;
-}
 
-.my_nav:hover,
-.my_nav:focus {
-    background-color: rgba(0, 0, 0, 0) !important;
-}
 
