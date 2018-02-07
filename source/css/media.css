@@ -2,14 +2,12 @@
 
 /* Large Devices, Wide Screens */
 
-@media only screen and (max-width: 1200px) {
-    
-}
+@media only screen and (max-width: 1200px) {}
 
 /* Medium Devices, Desktops */
 
 @media only screen and (max-width: 992px) {
-    .phone_bar{
+    .phone_bar {
         margin-right: 50px;
     }
 }
@@ -25,16 +23,50 @@
         right: 43px;
         /* top: 75px; */
     }
+    .title_block {
+        margin-top: 120px;
+    }
+    .title_block h1 {
+        font-size: 76px;
+    }
+    .title_block h2 {
+        padding-top: 0;
+        font-size: 35px;
+    }
+    .btn_call {
+        margin-top: 50px;
+    }
 }
 
 /* Extra Small Devices, Phones */
 
 @media only screen and (max-width: 480px) {
+    .logo_txt {
+        font-size: 16px;
+    }
+    .padding_null {
+        padding-right: 4px;
+        padding-left: 4px
+    }
     .my_nav {
-        right: 7px;
+        right: 0;
+        margin-right: 5px;
     }
     .nav_triangle {
-        right: 35px;
+        right: 20px;
+    }
+    .title_block h1 {
+        font-size: 66px;
+    }
+    .title_block h2 {
+        /* padding-top: 0; */
+        font-size: 25px;
+    }
+    .btn_call {
+        margin-top: 30px;
+        padding: 10px 30px;
+       
+        font-size: 20px;
     }
 }
 
