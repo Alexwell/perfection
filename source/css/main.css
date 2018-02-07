@@ -9,7 +9,28 @@ body {
 	height: 4444px;
 }
 
+
+.btn_call{
+	margin-top: 100px;
+	padding: 15px 40px;
+	border: none;
+	background-color: #545bac;
+	color: #fefefe;
+	font-size: 24px;
+	font-style: italic;
+	
+}
+
+
 /* HEADER */
+
+header{
+	height: 770px;
+	background-image: url(../img/Landing-Page_01.jpg);
+	/* background: url(../img/Landing-Page_01.jpg) center center no-repeat; */
+	-webkit-background-size: cover;
+	        background-size: cover;
+}
 
 nav {
 	height: 100px;
@@ -108,5 +129,28 @@ nav {
 .my_dropdown li a:focus,
 .my_dropdown li a:hover {
 	color: #2e334f;
+	-webkit-transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+	-o-transition: cubic-bezier(0.165, 0.84, 0.44, 1);
 	transition: cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+
+.title_block {
+	margin-top: 210px;
+	text-align: center;
+}
+
+.title_block h1{
+	font-size: 96px;
+	/* font-family: 'Libre Baskerville', serif; */
+	color: #29274e;
+	font-weight: bold;
+}
+
+.title_block h2{
+	padding-top: 10px;
+	font-size: 50px;
+	/* font-family: 'Rubik Mono One', sans-serif; */
+	/* color: #fefefe; */
+	color: #29274e;
+	font-weight: bold;
 }
