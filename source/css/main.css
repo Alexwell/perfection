@@ -320,3 +320,25 @@ nav {
 	text-align: center;
 	margin: auto;
 }
+
+/* ADAPT */
+.adapt{
+	margin-top: 100px;
+}
+
+
+.adapt_block{
+	color:#5a5757;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.adapt_block h3{
+	font-size: 28px;
+	line-height: 43px;
+}
+
+.adapt_block h4{
+	font-size: 20px;
+	padding-top: 15px;
+}

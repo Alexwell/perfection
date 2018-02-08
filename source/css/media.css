@@ -10,6 +10,15 @@
     .phone_bar {
         margin-right: 50px;
     }
+    .adapt_block {
+        margin-top: 20px;
+    }
+    .adapt_block h3 {
+        line-height: 35px;
+    }
+    .adapt_block h4 {
+        padding-top: 0;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -54,12 +63,10 @@
         padding-top: 10px;
         padding-bottom: 40px;
     }
-
-    .portfolio h2{
+    .portfolio h2 {
         padding-top: 50px;
         padding-bottom: 55px;
     }
-    
 }
 
 /* Extra Small Devices, Phones */
@@ -108,10 +115,19 @@
     .btn_offers {
         margin: 20px auto 60px;
     }
-
-    .portfolio h2{
+    .portfolio h2 {
         padding-top: 10px;
         padding-bottom: 35px;
+    }
+    .adapt {
+        margin-top: 60px;
+    }
+    .adapt_block h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .adapt_block h4 {
+        font-size: 16px;
     }
 }
 
