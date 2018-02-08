@@ -279,3 +279,44 @@ nav {
 	margin: 0 auto;
 }
 
+/* PORTFOLIO */
+
+.portfolio h2{
+	font-size: 29px;
+	text-align:center;
+	padding-top: 70px;
+	padding-bottom: 75px;
+}
+
+.portfolio_block {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.portfolio_block img{
+	margin: 0 auto;
+}
+
+.image_wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(51, 55, 111, .35);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	opacity: 0;
+}
+
+.portfolio_block:hover .image_wrap {
+	opacity: 1;
+}
+
+.portfolio_descr {
+	color: #fff;
+	text-align: center;
+	margin: auto;
+}
