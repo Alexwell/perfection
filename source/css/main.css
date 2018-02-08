@@ -4,8 +4,6 @@ body {
 	min-width: 320px;
 }
 
-
-
 .btn_call {
 	margin-top: 100px;
 	padding: 15px 40px;
@@ -16,7 +14,7 @@ body {
 	font-style: italic;
 }
 
-.btn_offers{
+.btn_offers {
 	border: 2px solid #abadc3;
 	background-color: #fff;
 	color: #5a5757;
@@ -252,7 +250,7 @@ nav {
 
 /* OFFERS */
 
-.offers h2{
+.offers h2 {
 	text-align: center;
 	font-size: 29px;
 	font-style: italic;
@@ -261,7 +259,7 @@ nav {
 	padding-top: 80px;
 }
 
-.offers h3{
+.offers h3 {
 	text-align: center;
 	font-size: 29px;
 	font-weight: 400;
@@ -269,21 +267,21 @@ nav {
 	padding-bottom: 80px;
 }
 
-.offers_block h4{
+.offers_block h4 {
 	text-align: center;
 	font-size: 29px;
 	padding-bottom: 35px;
 }
 
-.offers_block img{
+.offers_block img {
 	margin: 0 auto;
 }
 
 /* PORTFOLIO */
 
-.portfolio h2{
+.portfolio h2 {
 	font-size: 29px;
-	text-align:center;
+	text-align: center;
 	padding-top: 70px;
 	padding-bottom: 75px;
 }
@@ -293,7 +291,7 @@ nav {
 	margin-bottom: 30px;
 }
 
-.portfolio_block img{
+.portfolio_block img {
 	margin: 0 auto;
 }
 
@@ -322,23 +320,23 @@ nav {
 }
 
 /* ADAPT */
-.adapt{
+
+.adapt {
 	margin-top: 100px;
 }
 
-
-.adapt_block{
-	color:#5a5757;
+.adapt_block {
+	color: #5a5757;
 	text-align: center;
 	margin-top: 100px;
 }
 
-.adapt_block h3{
+.adapt_block h3 {
 	font-size: 28px;
 	line-height: 43px;
 }
 
-.adapt_block h4{
+.adapt_block h4 {
 	font-size: 20px;
 	padding-top: 15px;
 }
