@@ -47,6 +47,13 @@
         padding-top: 0;
         text-align: center
     }
+    .offers h2 {
+        padding-top: 70px;
+    }
+    .offers h3 {
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -78,10 +85,22 @@
         padding: 10px 30px;
         font-size: 20px;
     }
-
-    .advantages h2{
+    .advantages h2 {
         padding-top: 40px;
         padding-bottom: 40px;
+    }
+    .offers h2 {
+        padding-top: 35px;
+    }
+    .offers h3 {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .offers_block h4 {
+        padding-bottom: 15px;
+    }
+    .btn_offers {
+        margin: 20px auto 60px;
     }
 }
 

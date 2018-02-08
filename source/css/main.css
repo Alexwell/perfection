@@ -4,10 +4,7 @@ body {
 	min-width: 320px;
 }
 
-._long {
-	width: 100px;
-	height: 4444px;
-}
+
 
 .btn_call {
 	margin-top: 100px;
@@ -17,6 +14,17 @@ body {
 	color: #fefefe;
 	font-size: 24px;
 	font-style: italic;
+}
+
+.btn_offers{
+	border: 2px solid #abadc3;
+	background-color: #fff;
+	color: #5a5757;
+	font-size: 24px;
+	font-style: italic;
+	display: block;
+	margin: 55px auto;
+	padding: 9px 44px;
 }
 
 /* HEADER */
@@ -183,7 +191,7 @@ nav {
 /* ABOUT */
 
 .about {
-	height: 1080px;
+	min-height: 1080px;
 	background-image: url(../img/Landing-Page2_02.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -241,3 +249,33 @@ nav {
 	padding-top: 20px;
 	padding-bottom: 30px;
 }
+
+/* OFFERS */
+
+.offers h2{
+	text-align: center;
+	font-size: 29px;
+	font-style: italic;
+	font-weight: bold;
+	color: #555050;
+	padding-top: 80px;
+}
+
+.offers h3{
+	text-align: center;
+	font-size: 29px;
+	font-weight: 400;
+	padding-top: 40px;
+	padding-bottom: 80px;
+}
+
+.offers_block h4{
+	text-align: center;
+	font-size: 29px;
+	padding-bottom: 35px;
+}
+
+.offers_block img{
+	margin: 0 auto;
+}
+
