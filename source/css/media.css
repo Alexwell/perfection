@@ -15,6 +15,9 @@
 /* Small Devices, Tablets */
 
 @media only screen and (max-width: 768px) {
+    header {
+        height: 550px;
+    }
     .my_nav {
         position: fixed;
         right: 15px;
@@ -35,6 +38,14 @@
     }
     .btn_call {
         margin-top: 50px;
+    }
+    .adv_block img {
+        float: none;
+        margin: 0 auto;
+    }
+    .adv_block p {
+        padding-top: 0;
+        text-align: center
     }
 }
 
@@ -65,8 +76,12 @@
     .btn_call {
         margin-top: 30px;
         padding: 10px 30px;
-       
         font-size: 20px;
+    }
+
+    .advantages h2{
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 }
 
