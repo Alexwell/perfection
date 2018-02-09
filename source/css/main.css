@@ -354,8 +354,47 @@ nav {
 	padding-top: 15px;
 }
 
-.contact_input {
-	margin: 0 auto;
+
+
+/* OTHER SERVICES */
+
+.other_services {
+	min-height: 594px;
+	background-image: url(../img/Landing-Page_64.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+
+.other_services h2{
+	color: #545458;
+	font-size: 28px;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.other_block{
+	width: 200px;
+	height: 188px;
+	background-image: url(../img/hex.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	
+
+	
+}
+
+.other_block h5{
+	text-align: center;
+	padding-top: 69px;
+	font-size: 22px;
+	
+}
+
+.margin_top{
+	margin-top: 107px;;
 }
 
 /* CONTACTS */
@@ -402,6 +441,7 @@ footer {
 
 .contact_textarea {
 	width: 360px;
+	
 }
 
 /* FOOTER */
@@ -416,8 +456,6 @@ footer {
 	width: 100%;
 	margin-top: 101px;
 }
-
-
 
 .logo {
 	margin-top: 20px;
@@ -440,7 +478,7 @@ footer {
 	margin-left: 74px;
 }
 
-.social{
+.social {
 	margin-top: 35px;
 }
 
