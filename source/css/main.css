@@ -25,6 +25,18 @@ body {
 	padding: 9px 44px;
 }
 
+.btn_submit {
+	background-color: #6d86c4;
+	color: #d7d7da;
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: 400;
+	display: block;
+	border: none;
+	padding: 10px 55px;
+	margin: 35px auto;
+}
+
 /* HEADER */
 
 header {
@@ -323,6 +335,7 @@ nav {
 
 .adapt {
 	margin-top: 100px;
+	margin-bottom: 65px;
 }
 
 .adapt_block {
@@ -339,4 +352,61 @@ nav {
 .adapt_block h4 {
 	font-size: 20px;
 	padding-top: 15px;
+}
+
+
+.contact_input {
+	margin: 0 auto;
+}
+
+
+
+/* CONTACTS */
+
+.contacts {
+	min-height: 763px;
+	background-image: url(../img/Landing-Page_65.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+
+.contacts_block {
+	margin-top: 120px;
+}
+
+.contacts_block p {
+	color: #d7d7da;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 20px;
+	padding-bottom: 17px;
+}
+
+
+
+
+.contact_form h2 {
+	text-align: center;
+	font-weight: 400;
+	font-size: 28px;
+	color: #d7d7da;
+	padding-top: 25px;
+	padding-bottom: 40px;
+}
+
+.contact_input {
+	width: 262px;
+	margin-bottom: 13px;
+	border: 1px solid #fff;
+	border-radius: 8px;
+	color: #d7d7da;
+	font-size: 18px;
+	font-weight: 400;
+	background-color: rgba(0, 0, 0, 0)
+	
+}
+
+.contact_textarea {
+	width: 360px;
 }
