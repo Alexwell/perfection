@@ -354,16 +354,13 @@ nav {
 	padding-top: 15px;
 }
 
-
 .contact_input {
 	margin: 0 auto;
 }
 
-
-
 /* CONTACTS */
 
-.contacts {
+footer {
 	min-height: 763px;
 	background-image: url(../img/Landing-Page_65.jpg);
 	-webkit-background-size: cover;
@@ -383,9 +380,6 @@ nav {
 	padding-bottom: 17px;
 }
 
-
-
-
 .contact_form h2 {
 	text-align: center;
 	font-weight: 400;
@@ -404,9 +398,53 @@ nav {
 	font-size: 18px;
 	font-weight: 400;
 	background-color: rgba(0, 0, 0, 0)
-	
 }
 
 .contact_textarea {
 	width: 360px;
+}
+
+/* FOOTER */
+
+.footer {
+	height: 145px;
+	background-color: rgba(51, 55, 111, .35);
+	padding-top: 10px;
+	position: relative;
+	/* bottom: 0;
+	left: 0; */
+	width: 100%;
+	margin-top: 101px;
+}
+
+
+
+.logo {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.logo img {
+	float: left;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+.logo p {
+	font-size: 27px;
+	font-style: italic;
+	font-weight: 300;
+	color: #fefefe;
+	display: block;
+	padding-top: 20px;
+	margin-left: 74px;
+}
+
+.social{
+	margin-top: 35px;
+}
+
+.social img {
+	float: left;
+	margin: 0 8px;
 }
