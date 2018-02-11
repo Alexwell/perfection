@@ -17,9 +17,7 @@ body {
 
 .btn_call:hover {
 	background: #717ae4;
-	cursor: pointer;
-	/* -webkit-transition: all 0.1s linear;
-	transition: all 0.1s linear; */
+	
 }
 
 .btn_offers {
@@ -35,7 +33,7 @@ body {
 
 .btn_offers:hover {
 	background: #98b4da;
-	cursor: pointer;
+	/* cursor: pointer; */
 }
 
 .btn_submit {
@@ -49,6 +47,13 @@ body {
 	padding: 10px 55px;
 	margin: 35px auto;
 	box-shadow: 0px 0px 10.08px 3.92px rgba(1, 1, 1, 0.46);
+}
+
+.btn_submit:hover {
+	background: #717ae4;
+	/* cursor: pointer; */
+	/* -webkit-transition: all 0.1s linear;
+	transition: all 0.1s linear; */
 }
 
 .transition {
@@ -174,23 +179,13 @@ nav {
 .my_dropdown li a {
 	text-decoration: none;
 	color: #fefefe;
-	
 	display: block;
-	font-weight: 500;
-	/* background: -moz-linear-gradient(152deg, rgba(139, 133, 177, 1) 15%, rgba(145, 122, 173, 1) 28%, rgba(154, 106, 167, 0.95) 47%, rgba(168, 80, 158, 0.95) 77%);
-	background: -webkit-linear-gradient(152deg, rgba(139, 133, 177, 1) 15%, rgba(145, 122, 173, 1) 28%, rgba(154, 106, 167, 0.95) 47%, rgba(168, 80, 158, 0.95) 77%);
-	background: linear-gradient(152deg, rgba(139, 133, 177, 1) 15%, rgba(145, 122, 173, 1) 28%, rgba(154, 106, 167, 0.95) 47%, rgba(168, 80, 158, 0.95) 77%);
-	
-	-webkit-background-clip: text;
-	background-clip: text;
-	-webkit-text-fill-color: transparent;
-	color: #0B2349; */
+	font-style: italic;
 }
 
 .my_dropdown li a:focus,
 .my_dropdown li a:hover {
 	color: #9b6da7;
-	
 }
 
 .title_block {
@@ -334,6 +329,10 @@ nav {
 }
 
 /* PORTFOLIO */
+
+.shadow_lines {
+	box-shadow: 0px 0px 37.63px 15.37px rgba(1, 1, 1, 0.07);
+}
 
 .portfolio h2 {
 	font-size: 29px;
