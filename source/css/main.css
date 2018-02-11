@@ -354,8 +354,6 @@ nav {
 	padding-top: 15px;
 }
 
-
-
 /* OTHER SERVICES */
 
 .other_services {
@@ -366,7 +364,7 @@ nav {
 	background-position: center;
 }
 
-.other_services h2{
+.other_services h2 {
 	color: #545458;
 	font-size: 28px;
 	text-align: center;
@@ -374,27 +372,63 @@ nav {
 	padding-bottom: 40px;
 }
 
-.other_block{
+.other_block {
 	width: 200px;
 	height: 188px;
-	background-image: url(../img/hex.png);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center;
-	
-
-	
 }
 
-.other_block h5{
+.hex_violet {
+	background-image: url(../img/hex_violet.png);
+}
+
+.hex_green {
+	background-image: url(../img/hex_green.png);
+}
+
+.hex_red {
+	background-image: url(../img/hex_red.png);
+}
+
+.hex_yellow {
+	background-image: url(../img/hex_yellow.png);
+}
+
+.hex_blue {
+	background-image: url(../img/hex_blue.png);
+}
+
+.hex_beige {
+	background-image: url(../img/hex_beige.png);
+}
+
+.other_block a {
+	text-decoration: none;
+	color: #545458;
+	display: block;
+	font-weight: 500;
+}
+
+.other_block a:focus,
+.other_block a:hover {
+	color: rgba(51, 55, 111, 1);
+	-webkit-transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+	-o-transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+	transition: cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+
+.other_block h5 {
 	text-align: center;
 	padding-top: 69px;
+	padding-bottom: 69px;
 	font-size: 22px;
-	
 }
 
-.margin_top{
-	margin-top: 107px;;
+.margin_top {
+	margin-top: 107px;
+	;
 }
 
 /* CONTACTS */
@@ -441,7 +475,6 @@ footer {
 
 .contact_textarea {
 	width: 360px;
-	
 }
 
 /* FOOTER */
