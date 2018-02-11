@@ -12,6 +12,14 @@ body {
 	color: #fefefe;
 	font-size: 24px;
 	font-style: italic;
+	box-shadow: 0 0 7px #2e2e2e;
+}
+
+.btn_call:hover {
+	background: #717ae4;
+	cursor: pointer;
+	/* -webkit-transition: all 0.1s linear;
+	transition: all 0.1s linear; */
 }
 
 .btn_offers {
@@ -25,6 +33,11 @@ body {
 	padding: 9px 44px;
 }
 
+.btn_offers:hover {
+	background: #98b4da;
+	cursor: pointer;
+}
+
 .btn_submit {
 	background-color: #6d86c4;
 	color: #d7d7da;
@@ -35,14 +48,30 @@ body {
 	border: none;
 	padding: 10px 55px;
 	margin: 35px auto;
+	box-shadow: 0px 0px 10.08px 3.92px rgba(1, 1, 1, 0.46);
 }
 
-.gradient_txt{
-	background: -webkit-linear-gradient(-152deg, #a8509e 15%, #8b85b1 75%);
+.transition {
+	-webkit-transition: all 500ms ease-out;
+	transition: all 500ms ease-out;
+}
+
+.transition:hover {
+	-webkit-transition: all 500ms ease-out;
+	transition: all 500ms ease-out;
+	-webkit-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+
+.gradient_txt {
+	background: -moz-linear-gradient(152deg, rgba(139, 133, 177, 1) 15%, rgba(145, 122, 173, 1) 28%, rgba(154, 106, 167, 0.95) 47%, rgba(168, 80, 158, 0.95) 77%);
+	background: -webkit-linear-gradient(152deg, rgba(139, 133, 177, 1) 15%, rgba(145, 122, 173, 1) 28%, rgba(154, 106, 167, 0.95) 47%, rgba(168, 80, 158, 0.95) 77%);
+	background: linear-gradient(152deg, rgba(139, 133, 177, 1) 15%, rgba(145, 122, 173, 1) 28%, rgba(154, 106, 167, 0.95) 47%, rgba(168, 80, 158, 0.95) 77%);
+	/* background: -webkit-linear-gradient(-152deg, #a8509e 15%, #8b85b1 75%);
 	background: -o-linear-gradient(-152deg, #a8509e 15%, #8b85b1 75%);
-	background: linear-gradient(-152deg, #a8509e 15%, #8b85b1 75%);
+	background: linear-gradient(-152deg, #a8509e 15%, #8b85b1 75%); */
 	-webkit-background-clip: text;
-	        background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	color: #0B2349;
 }
@@ -424,9 +453,6 @@ nav {
 .other_block a:focus,
 .other_block a:hover {
 	color: rgba(51, 55, 111, 1);
-	-webkit-transition: cubic-bezier(0.165, 0.84, 0.44, 1);
-	-o-transition: cubic-bezier(0.165, 0.84, 0.44, 1);
-	transition: cubic-bezier(0.165, 0.84, 0.44, 1)
 }
 
 .other_block h5 {
@@ -477,7 +503,7 @@ footer {
 	margin-bottom: 13px;
 	border: 1px solid #fff;
 	-webkit-border-radius: 8px;
-	        border-radius: 8px;
+	border-radius: 8px;
 	color: #d7d7da;
 	font-size: 18px;
 	font-weight: 400;
