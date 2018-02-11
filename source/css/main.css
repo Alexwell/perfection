@@ -67,9 +67,6 @@ body {
 	background: -moz-linear-gradient(152deg, rgba(139, 133, 177, 1) 15%, rgba(145, 122, 173, 1) 28%, rgba(154, 106, 167, 0.95) 47%, rgba(168, 80, 158, 0.95) 77%);
 	background: -webkit-linear-gradient(152deg, rgba(139, 133, 177, 1) 15%, rgba(145, 122, 173, 1) 28%, rgba(154, 106, 167, 0.95) 47%, rgba(168, 80, 158, 0.95) 77%);
 	background: linear-gradient(152deg, rgba(139, 133, 177, 1) 15%, rgba(145, 122, 173, 1) 28%, rgba(154, 106, 167, 0.95) 47%, rgba(168, 80, 158, 0.95) 77%);
-	/* background: -webkit-linear-gradient(-152deg, #a8509e 15%, #8b85b1 75%);
-	background: -o-linear-gradient(-152deg, #a8509e 15%, #8b85b1 75%);
-	background: linear-gradient(-152deg, #a8509e 15%, #8b85b1 75%); */
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -139,7 +136,7 @@ nav {
 .nav_triangle {
 	width: 0;
 	height: 0;
-	border-bottom: 25px solid rgba(51, 55, 111, .35);
+	border-bottom: 25px solid rgba(51, 55, 111, .85);
 	border-left: 15px solid transparent;
 	border-right: 15px solid transparent;
 	/* margin: 0 auto; */
@@ -157,8 +154,9 @@ nav {
 
 .my_dropdown li {
 	line-height: 47px;
-	background-color: rgba(51, 55, 111, .35);
+	background-color: rgba(51, 55, 111, .85);
 	color: #2e334f;
+	padding: 15px;
 }
 
 /* .my_dropdown li:first-child{
@@ -170,22 +168,29 @@ nav {
 } */
 
 .my_dropdown li:hover {
-	background-color: rgba(51, 55, 111, .55);
+	background-color: rgba(51, 55, 111, .95);
 }
 
 .my_dropdown li a {
 	text-decoration: none;
-	color: #2e334f;
+	color: #fefefe;
+	
 	display: block;
 	font-weight: 500;
+	/* background: -moz-linear-gradient(152deg, rgba(139, 133, 177, 1) 15%, rgba(145, 122, 173, 1) 28%, rgba(154, 106, 167, 0.95) 47%, rgba(168, 80, 158, 0.95) 77%);
+	background: -webkit-linear-gradient(152deg, rgba(139, 133, 177, 1) 15%, rgba(145, 122, 173, 1) 28%, rgba(154, 106, 167, 0.95) 47%, rgba(168, 80, 158, 0.95) 77%);
+	background: linear-gradient(152deg, rgba(139, 133, 177, 1) 15%, rgba(145, 122, 173, 1) 28%, rgba(154, 106, 167, 0.95) 47%, rgba(168, 80, 158, 0.95) 77%);
+	
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: #0B2349; */
 }
 
 .my_dropdown li a:focus,
 .my_dropdown li a:hover {
-	color: #2e334f;
-	-webkit-transition: cubic-bezier(0.165, 0.84, 0.44, 1);
-	-o-transition: cubic-bezier(0.165, 0.84, 0.44, 1);
-	transition: cubic-bezier(0.165, 0.84, 0.44, 1)
+	color: #9b6da7;
+	
 }
 
 .title_block {
