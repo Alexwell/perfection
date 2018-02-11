@@ -5,8 +5,9 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="img/Landing-Page_03.png" rel="shortcut icon">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Design of perfection</title>
+  <title>design of perfection</title>
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous">
@@ -88,7 +89,7 @@
           <div class="title_block">
             <h1>LANDING PAGE</h1>
             <h2>под ключ от 399 Euro</h2>
-            <button class="btn_call transition">оставить заявку</button>
+            <button class="btn_call transition" data-toggle="modal" data-target="#dlModal">оставить заявку</button>
           </div>
         </div>
       </div>
@@ -432,7 +433,7 @@
         </div>
       </div>
     </div>
-    <div class="footer">
+    <div class="footer_bottom">
       <div class="container">
         <div class="row">
           <div class="col-md-5 col-sm-7 col-xs-8">
@@ -443,8 +444,12 @@
           </div>
           <div class="col-md-2 col-md-offset-3 col-sm-3 col-sm-offset-2 col-xs-4">
             <div class="social">
-              <img class="img-responsive" src="img/Landing-Page_70.png" alt="facebook">
-              <img class="img-responsive" src="img/Landing-Page_72.png" alt="instagram">
+              <a href="#">
+                <img class="img-responsive" src="img/Landing-Page_70.png" alt="facebook">
+              </a>
+              <a href="#">
+                <img class="img-responsive" src="img/Landing-Page_72.png" alt="instagram">
+              </a>
             </div>
 
           </div>
@@ -452,6 +457,29 @@
       </div>
     </div>
   </footer>
+
+  <!-- Modal -->
+  <div class="modal fade" id="dlModal">
+    <div class="modal-dialog modal_width">
+      <div class="modal-content modal_bg">
+        <div class="modal-header border_none">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title modal_h">Всегда рады помочь Вам!</h4>
+        </div>
+        <div class="modal-body">
+          <form action="#" class="dl_form" id="dlForm">
+            <input type="text" class="form-control contact_input modal_input" placeholder="Ваше имя">
+            <input type="text" class="form-control contact_input modal_input" placeholder="Ваш телефон">
+            <input type="email" class="form-control contact_input modal_input" placeholder="Ваш E-Mail">
+            <textarea class="form-control contact_input contact_textarea modal_input" rows="3" placeholder="Опишите свой проект"></textarea>
+            <input type="submit" value="отправить" class="btn_submit transition btn-block fs_italic">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
