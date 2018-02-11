@@ -37,6 +37,16 @@ body {
 	margin: 35px auto;
 }
 
+.gradient_txt{
+	background: -webkit-linear-gradient(-152deg, #a8509e 15%, #8b85b1 75%);
+	background: -o-linear-gradient(-152deg, #a8509e 15%, #8b85b1 75%);
+	background: linear-gradient(-152deg, #a8509e 15%, #8b85b1 75%);
+	-webkit-background-clip: text;
+	        background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: #0B2349;
+}
+
 /* HEADER */
 
 header {
@@ -466,7 +476,8 @@ footer {
 	width: 262px;
 	margin-bottom: 13px;
 	border: 1px solid #fff;
-	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	        border-radius: 8px;
 	color: #d7d7da;
 	font-size: 18px;
 	font-weight: 400;
