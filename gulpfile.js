@@ -11,7 +11,7 @@ var gulp = require('gulp'),
 		uglify = require('gulp-uglify'),
 		concat = require('gulp-concat'),
 		cleanCSS = require('gulp-clean-css');
-			
+
 /*--------------Server--------------*/
 gulp.task('server', function(){
 	browserSync.init({
@@ -47,8 +47,9 @@ gulp.task('html:compile', function(){
 /*--------------CSS compile--------------*/
 gulp.task('css:compile', function(){
 	var cssOrder = [
-		'source/css/*.css',
-		'source/css/**/*.css'
+		'source/css/fonts.css',
+		'source/css/main.css',
+		'source/css/media.css'
 	];
 	return gulp.src(cssOrder)
 		.pipe(sourcemaps.init())
@@ -68,7 +69,7 @@ gulp.task('js:compile', function(){
 	var jsOrder = [
 		'source/js/**/*.js'
 	];
-	return gulp.src(jsOrder) 
+	return gulp.src(jsOrder)
 		.pipe(sourcemaps.init())
 		.pipe(concat('main.min.js'))
 		.pipe(uglify())
@@ -113,9 +114,17 @@ gulp.task('copy:php', function(){
 		.pipe(gulp.dest('build/php'));
 });
 
+/*--------------Copy other--------------*/
+gulp.task('copy:other', function(){
+	var otherSrc = [
+		'./source/*.*'
+	];
+	return gulp.src(otherSrc)
+		.pipe(gulp.dest('build'))
+});
 
 /*--------------Copy --------------*/
-gulp.task('copy', gulp.parallel('copy:fonts', 'copy:images', 'copy:php'));
+gulp.task('copy', gulp.parallel('copy:fonts', 'copy:images', 'copy:php', 'copy:other'));
 
 /*--------------Watchers--------------*/
 gulp.task('watch', function(){
@@ -123,6 +132,9 @@ gulp.task('watch', function(){
 	// gulp.watch(['source/sass/**/*.scss', 'source/sass/**/*.css'], gulp.series('sass:compile'));
 	gulp.watch('source/css/**/*.css', gulp.series('css:compile'));
 	gulp.watch('source/js/**/*.js', gulp.series('js:compile'));
+	gulp.watch('source/img/**/*.*', gulp.series('copy:images'));
+	gulp.watch('source/php/**/*.php', gulp.series('copy:php'));
+	gulp.watch('source/fonts/**/*.*', gulp.series('copy:fonts'));
 });
 
 gulp.task('default', gulp.series(

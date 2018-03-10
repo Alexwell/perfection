@@ -13,9 +13,7 @@
     crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:700|Rubik+Mono+One&amp|Roboto:300i,400,500,500i,700,700i&amp;subset=cyrillic"
     rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <!-- <link href="css/fonts.css" rel="stylesheet"> -->
-  <link href="css/media.css" rel="stylesheet">
+  <link href="css/main.min.css" rel="stylesheet">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -23,7 +21,6 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-
 <body>
   <header>
     <nav>
@@ -64,20 +61,20 @@
         <ul class="my_dropdown">
 
           <li class="transition">
-            <a href="#adv">Наши преимущества</a>
+            <a id="js-adv" href="#adv">Наши преимущества</a>
           </li>
 
           <li class="transition">
-            <a href="#order">Заказать веб-сайт</a>
+            <a id="js-order" href="#order">Заказать веб-сайт</a>
           </li>
           <li class="transition">
-            <a href="#scheme">Схема работы над Вашим проектом</a>
+            <a id="js-scheme" href="#scheme">Схема работы над Вашим проектом</a>
           </li>
           <li class="transition">
-            <a href="#port">Портфолио</a>
+            <a id="js-pf" href="#port">Портфолио</a>
           </li>
           <li class="transition">
-            <a href="#other">Дополнительные услуги</a>
+            <a id="js-other" href="#other">Дополнительные услуги</a>
           </li>
 
         </ul>
@@ -221,7 +218,7 @@
           <div class="offers_block">
             <h4>Услуги</h4>
             <img class="img-responsive" src="img/Landing-Page_34.png" alt="сайт на заказ">
-            <button class="btn_offers transition">заказать
+            <button class="btn_offers transition" data-toggle="modal" data-target="#dlModal">заказать
             </button>
           </div>
         </div>
@@ -229,7 +226,7 @@
           <div class="offers_block">
             <h4>Производство</h4>
             <img class="img-responsive" src="img/Landing-Page_36.png" alt="Производство">
-            <button class="btn_offers transition">заказать
+            <button class="btn_offers transition" data-toggle="modal" data-target="#dlModal">заказать
             </button>
           </div>
         </div>
@@ -237,7 +234,7 @@
           <div class="offers_block">
             <h4>Торговля</h4>
             <img class="img-responsive" src="img/Landing-Page_38.png" alt="Торговля">
-            <button class="btn_offers transition">заказать
+            <button class="btn_offers transition" data-toggle="modal" data-target="#dlModal">заказать
             </button>
           </div>
         </div>
@@ -422,11 +419,11 @@
         <div class="col-md-4 col-sm-6 col-xs-12">
           <div class="contact_form" id="order">
             <h2>Заполните форму</h2>
-            <form action="#" id="dlForm">
-              <input type="text" class="form-control contact_input" placeholder="Ваше имя">
-              <input type="text" class="form-control contact_input" placeholder="Ваш телефон">
-              <input type="email" class="form-control contact_input" placeholder="Ваш E-Mail">
-              <textarea class="form-control contact_input contact_textarea" rows="5" placeholder="Опишите свой проект"></textarea>
+            <form action="#" id ="js-main-form" >
+              <input type="text" name="name" class="form-control contact_input" placeholder="Ваше имя">
+              <input type="text" name="phone" class="form-control contact_input" placeholder="Ваш телефон">
+              <input type="email" name="email" class="form-control contact_input" placeholder="Ваш E-Mail">
+              <textarea name="message" class="form-control contact_input contact_textarea"  rows="5" placeholder="Опишите свой проект"></textarea>
               <input type="submit" value="отправить" class="btn_submit transition">
             </form>
           </div>
@@ -469,11 +466,11 @@
           <h4 class="modal-title modal_h">Всегда рады помочь Вам!</h4>
         </div>
         <div class="modal-body">
-          <form action="#" class="dl_form" id="dlForm">
-            <input type="text" class="form-control contact_input modal_input" placeholder="Ваше имя">
-            <input type="text" class="form-control contact_input modal_input" placeholder="Ваш телефон">
-            <input type="email" class="form-control contact_input modal_input" placeholder="Ваш E-Mail">
-            <textarea class="form-control contact_input contact_textarea modal_input" rows="3" placeholder="Опишите свой проект"></textarea>
+          <form action="#" class="dl_form" id ="js-modal-form">
+            <input type="text" name="name" class="form-control contact_input modal_input" placeholder="Ваше имя">
+            <input type="text" name="phone" class="form-control contact_input modal_input" placeholder="Ваш телефон">
+            <input type="email" name="email" class="form-control contact_input modal_input" placeholder="Ваш E-Mail">
+            <textarea name="message" class="form-control contact_input contact_textarea modal_input" rows="3" placeholder="Опишите свой проект"></textarea>
             <input type="submit" value="отправить" class="btn_submit transition btn-block fs_italic">
           </form>
         </div>
@@ -488,7 +485,7 @@
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
-  <script src="js/common.js"></script>
+  <script src="js/main.min.js"></script>
 </body>
 
 </html>
