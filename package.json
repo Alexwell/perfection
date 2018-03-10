@@ -21,5 +21,22 @@
   "bugs": {
     "url": "https://github.com/alexander-web/perfection/issues"
   },
-  "homepage": "https://github.com/alexander-web/perfection#readme"
+  "homepage": "https://github.com/alexander-web/perfection#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp.spritesmith": "^6.9.0",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {}
 }
