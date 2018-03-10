@@ -1,13 +1,16 @@
-# Windows thumbnail cache files
+###User###
+build
+node_modules
+tmp
+
+###Windows###
+
+# Windows image file caches
 Thumbs.db
 ehthumbs.db
-ehthumbs_vista.db
-
-# Dump file
-*.stackdump
 
 # Folder config file
-[Dd]esktop.ini
+Desktop.ini
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
@@ -21,13 +24,20 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 
-# User
-tmp/
-mockup/
-source/mockup/
+###SublimeText###
+
+# cache files for sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# workspace files are user-specific
+*.sublime-workspace
+
+# project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using SublimeText
+# *.sublime-project
+
+# sftp configuration file
+sftp-config.json
